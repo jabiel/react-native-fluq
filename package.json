@@ -1,8 +1,12 @@
 {
   "name": "react-native-fluq",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Firebase Dynamic Links alternative for React Native",
   "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jabiel/react-native-fluq.git"
+  },
   "types": "src/index.d.ts",
   "scripts": {
     "test": "jest",
@@ -15,8 +19,12 @@
     "deep-links",
     "react-native-dynamic-links"
   ],
-  "author": "",
+  "author": "Jarek Bielicki",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jabiel/react-native-fluq/issues"
+  },
+  "homepage": "https://fluq.link",
   "peerDependencies": {
     "react": "*",
     "react-dom": "*",
